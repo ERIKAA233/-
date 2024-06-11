@@ -1,0 +1,21 @@
+//引入清楚默认样式
+@import './reset.scss';
+
+//设置Scss全局变量
+//滚动条外观
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  width: 10px;
+  background: $base-menu-background ;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 10px;
+  background-color: #fff;
+  border-radius:10px;
+}

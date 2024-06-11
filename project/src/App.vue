@@ -1,7 +1,9 @@
 <template>
-  <h1>我是app组件</h1>
+  <div class="">
+    <router-view></router-view>
+  </div>
 </template>
+<script setup lang="ts">
 
-<script setup lang="ts"></script>
-
+</script>
 <style scoped></style>
